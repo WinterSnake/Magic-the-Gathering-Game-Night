@@ -1,0 +1,8 @@
+{
+	"name": "Dwynen's Elite",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Warrior"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Joraga Visionary",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Wizard"]
+	}
+}

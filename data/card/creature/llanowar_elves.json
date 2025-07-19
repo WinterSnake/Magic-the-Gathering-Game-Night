@@ -1,0 +1,8 @@
+{
+	"name": "Llanowar Elves",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Druid"]
+	}
+}

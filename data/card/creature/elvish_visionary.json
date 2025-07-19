@@ -1,0 +1,8 @@
+{
+	"name": "Elvish Visionary",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Shaman"]
+	}
+}

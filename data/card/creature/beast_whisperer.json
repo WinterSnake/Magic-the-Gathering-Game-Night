@@ -1,0 +1,8 @@
+{
+	"name": "Beast Whisperer",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Druid"]
+	}
+}

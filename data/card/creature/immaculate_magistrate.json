@@ -1,0 +1,8 @@
+{
+	"name": "Immaculate Magistrate",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Shaman"]
+	}
+}
