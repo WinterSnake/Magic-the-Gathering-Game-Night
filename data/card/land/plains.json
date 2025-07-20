@@ -1,0 +1,8 @@
+{
+	"name": "Plains",
+	"type": {
+		"super": "Basic",
+		"base": ["Land"],
+		"sub": ["Plains"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Island",
+	"type": {
+		"super": "Basic",
+		"base": ["Land"],
+		"sub": ["Island"]
+	}
+}

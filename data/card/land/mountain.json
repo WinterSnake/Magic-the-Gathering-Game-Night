@@ -1,0 +1,8 @@
+{
+	"name": "Mountain",
+	"type": {
+		"super": "Basic",
+		"base": ["Land"],
+		"sub": ["Mountain"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Swamp",
+	"type": {
+		"super": "Basic",
+		"base": ["Land"],
+		"sub": ["Swamp"]
+	}
+}
