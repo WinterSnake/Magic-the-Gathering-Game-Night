@@ -1,0 +1,8 @@
+{
+	"name": "Howling Golem",
+	"type": {
+		"super": null,
+		"base": ["Artifact", "Creature"],
+		"sub": ["Golem"]
+	}
+}

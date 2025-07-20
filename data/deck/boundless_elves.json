@@ -1,0 +1,15 @@
+{
+	"name": "Boundless Elves",
+	"cards": {
+		"beast_whisperer": 1,
+		"dwynens_elite": 2,
+		"elvish_rejuvenator": 2,
+		"elvish_visionary": 3,
+		"immaculate_magistrate": 1,
+		"joraga_visionary": 1,
+		"llanowar_elves": 3,
+		"llanowar_tribe": 2,
+		"howling_golem": 1,
+		"forest": 24
+	}
+}

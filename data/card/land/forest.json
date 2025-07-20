@@ -1,0 +1,8 @@
+{
+	"name": "Forest",
+	"type": {
+		"super": "Basic",
+		"base": ["Land"],
+		"sub": ["Forest"]
+	}
+}
