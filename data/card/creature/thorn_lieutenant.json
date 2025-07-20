@@ -1,0 +1,8 @@
+{
+	"name": "Thorn Lieutenant",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Warrior"]
+	}
+}

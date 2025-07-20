@@ -1,15 +1,32 @@
 {
 	"name": "Boundless Elves",
 	"cards": {
+		"imaryll_elfhame_elite": 1,
 		"beast_whisperer": 1,
 		"dwynens_elite": 2,
+		"elvish_archdruid": 1,
 		"elvish_rejuvenator": 2,
+		"elvish_skysweeper": 1,
 		"elvish_visionary": 3,
+		"end_raze_forerunners": 1,
 		"immaculate_magistrate": 1,
 		"joraga_visionary": 1,
 		"llanowar_elves": 3,
 		"llanowar_tribe": 2,
+		"sylvan_messenger": 2,
+		"taunting_elf": 1,
+		"thorn_lieutenant": 1,
+		"thornweald_archer": 2,
 		"howling_golem": 1,
+		"broken_wings": 1,
+		"elven_ambush": 1,
+		"invigorate": 2,
+		"overrun": 1,
+		"rabid_bite": 1,
+		"ram_through": 1,
+		"regrowth": 1,
+		"vow_of_wildness": 1,
+		"wirewood_pride": 1,
 		"forest": 24
 	}
 }

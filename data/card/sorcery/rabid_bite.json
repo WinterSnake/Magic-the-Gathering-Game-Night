@@ -1,0 +1,8 @@
+{
+	"name": "Rabid Bite",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

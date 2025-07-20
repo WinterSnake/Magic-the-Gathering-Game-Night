@@ -1,0 +1,8 @@
+{
+	"name": "Thornweald Archer",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf", "Archer"]
+	}
+}

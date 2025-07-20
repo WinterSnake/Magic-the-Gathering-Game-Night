@@ -1,0 +1,8 @@
+{
+	"name": "Overrun",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

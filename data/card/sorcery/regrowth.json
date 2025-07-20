@@ -1,0 +1,8 @@
+{
+	"name": "Regrowth",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

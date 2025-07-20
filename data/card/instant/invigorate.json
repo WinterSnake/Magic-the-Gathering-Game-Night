@@ -1,0 +1,8 @@
+{
+	"name": "Invigorate",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

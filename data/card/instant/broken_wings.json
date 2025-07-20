@@ -1,0 +1,8 @@
+{
+	"name": "Broken Wings",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

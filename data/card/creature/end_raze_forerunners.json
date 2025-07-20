@@ -1,0 +1,8 @@
+{
+	"name": "End-Raze Forerunners",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Boar"]
+	}
+}

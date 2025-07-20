@@ -1,0 +1,8 @@
+{
+	"name": "Vow of Wildness",
+	"type": {
+		"super": null,
+		"base": ["Enchantment"],
+		"sub": ["Aura"]
+	}
+}

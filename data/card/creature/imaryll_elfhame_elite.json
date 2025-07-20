@@ -1,0 +1,8 @@
+{
+	"name": "Imaryll, Elfhame Elite",
+	"type": {
+		"super": "Legendary",
+		"base": ["Creature"],
+		"sub": ["Elf", "Warrior"]
+	}
+}

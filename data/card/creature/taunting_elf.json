@@ -1,0 +1,8 @@
+{
+	"name": "Taunting Elf",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Elf"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Wirewood Pride",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}
