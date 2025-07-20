@@ -1,0 +1,8 @@
+{
+	"name": "Diluvian Primordial",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Avatar"]
+	}
+}

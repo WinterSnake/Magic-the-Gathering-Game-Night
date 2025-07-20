@@ -1,0 +1,8 @@
+{
+	"name": "Sea Gate Oracle",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Wizard"]
+	}
+}

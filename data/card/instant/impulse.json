@@ -1,0 +1,8 @@
+{
+	"name": "Impulse",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

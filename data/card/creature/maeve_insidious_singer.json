@@ -1,0 +1,8 @@
+{
+	"name": "Maeve, Insidious Singer",
+	"type": {
+		"super": "Legendary",
+		"base": ["Creature"],
+		"sub": ["Siren"]
+	}
+}

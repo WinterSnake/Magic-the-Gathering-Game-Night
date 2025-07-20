@@ -1,0 +1,8 @@
+{
+	"name": "Counterspell",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Bloodthirsty Blade",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

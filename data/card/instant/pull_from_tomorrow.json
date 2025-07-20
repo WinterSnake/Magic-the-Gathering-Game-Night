@@ -1,0 +1,8 @@
+{
+	"name": "Pull from Tomorrow",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

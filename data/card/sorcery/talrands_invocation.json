@@ -1,0 +1,8 @@
+{
+	"name": "Talrand's Invocation",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

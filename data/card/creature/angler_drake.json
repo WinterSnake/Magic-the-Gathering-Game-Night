@@ -1,0 +1,8 @@
+{
+	"name": "Angler Drake",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Drake"]
+	}
+}

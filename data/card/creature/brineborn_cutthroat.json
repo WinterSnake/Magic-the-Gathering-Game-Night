@@ -1,0 +1,8 @@
+{
+	"name": "Brineborn Cutthroat",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Merfolk", "Pirate"]
+	}
+}

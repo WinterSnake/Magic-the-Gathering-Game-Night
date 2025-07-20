@@ -1,0 +1,8 @@
+{
+	"name": "Plea for Power",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

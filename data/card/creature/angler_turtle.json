@@ -1,0 +1,8 @@
+{
+	"name": "Angler Turtle",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Turtle"]
+	}
+}

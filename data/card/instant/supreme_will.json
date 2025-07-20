@@ -1,0 +1,8 @@
+{
+	"name": "Supreme Will",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

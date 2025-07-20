@@ -1,0 +1,8 @@
+{
+	"name": "Jeering Homunculus",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Homunculus"]
+	}
+}

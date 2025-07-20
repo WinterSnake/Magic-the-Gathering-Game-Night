@@ -1,7 +1,30 @@
 {
 	"name": "Political Trickery",
 	"cards": {
+		"maeve_insidious_singer": 1,
+		"angler_drake": 1,
+		"angler_turtle": 1,
+		"brineborn_cutthroat": 3,
+		"diluvian_primordial": 1,
+		"fog_bank": 2,
+		"illusory_ambusher": 2,
+		"jeering_homunculus": 1,
+		"murmuring_mystic": 3,
+		"sea_gate_oracle": 2,
 		"howling_golem": 1,
+		"counterspell": 1,
+		"fact_or_fiction": 2,
+		"impulse": 2,
+		"plea_for_power": 1,
+		"precognitive_perception": 1,
+		"pull_from_tomorrow": 1,
+		"repulse": 1,
+		"run_away_together": 2,
+		"split_decision": 1,
+		"supreme_will": 1,
+		"talrands_invocation": 2,
+		"vow_of_flight": 1,
+		"bloodthirsty_blade": 1,
 		"island": 25
 	}
 }

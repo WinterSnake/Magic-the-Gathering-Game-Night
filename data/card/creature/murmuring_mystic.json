@@ -1,0 +1,8 @@
+{
+	"name": "Murmuring Mystic",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Wizard"]
+	}
+}

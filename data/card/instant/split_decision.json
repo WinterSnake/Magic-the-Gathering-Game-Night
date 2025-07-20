@@ -1,0 +1,8 @@
+{
+	"name": "Split Decision",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

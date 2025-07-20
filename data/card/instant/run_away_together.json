@@ -1,0 +1,8 @@
+{
+	"name": "Run Away Together",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

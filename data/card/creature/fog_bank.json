@@ -1,0 +1,8 @@
+{
+	"name": "Fog Bank",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Wall"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Illusory Ambusher",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Cat", "Illusion"]
+	}
+}
