@@ -3,45 +3,31 @@ import { Card, CardType, SuperType } from './card/card.js';
 import { ManaColor } from './card/mana.js';
 
 // Constants
-const DIRECTORIES: string[] = [
-	"artifact",
-	"creature",
-	"enchantment",
-	"instant",
-	"land",
-	"sorcery"
-];
 const CARD_TABLE: { [key: string]: Card} = { };
 
 // Functions
-export async function loadCard(name: string): Promise<Card> {
+export async function loadCard(path: string): Promise<Card> {
+	const [_type, name] = path.split('/');
 	// Load Card from memory
 	if (CARD_TABLE[name] !== undefined) {
 		return CARD_TABLE[name];
 	}
-	// Load Card from JSON
-	let cardData = null;
-	const path = `./data/card/`;
-	for (const dir of DIRECTORIES) {
-		const fullPath = `${path}${dir}/${name}.json`;
-		const resp = await fetch(fullPath);
-		if (!resp.ok) continue;
-		cardData = await resp.json();
-		break;
+	//// Load Card from JSON
+	const response = await fetch(`./data/card/${path}.json`);
+	if (!response.ok) {
+		throw new Error(`Card "${name}" not found`);
 	}
-	if (cardData === null) {
-		throw new Error(`No card "${name}" found`);
-	}
+	const data = await response.json();
 	let baseType: CardType = undefined;
-	let superType: SuperType = null;
-	if (cardData['type']['super'] !== null) {
-		superType = SuperType[cardData['type']['super'] as keyof typeof SuperType];
+	let superType: SuperType = undefined;
+	if (data['type']['super'] !== null) {
+		superType = SuperType[data['type']['super'] as keyof typeof SuperType];
 	}
-	cardData['type']['base'].forEach(element => {
+	data['type']['base'].forEach(element => {
 		baseType |= CardType[element as keyof typeof CardType];
 	});
 	const card = new Card(
-		cardData['name'], baseType, cardData['type']['sub'], superType
+		data['name'], baseType, data['type']['sub'], superType
 	);
 	CARD_TABLE[name] = card;
 	return card;
