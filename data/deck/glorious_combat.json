@@ -1,7 +1,31 @@
 {
 	"name": "Glorious Combat",
 	"cards": {
+		"zamriel_seraph_of_steel": 1,
+		"banisher_priest": 2,
+		"captain_of_the_watch": 1,
+		"danitha_capashen_paragon": 1,
+		"forbidding_spirit": 1,
+		"heavenly_blademaster": 1,
+		"kitesail_apprentice": 2,
+		"kor_duelist": 2,
+		"kor_outfitter": 2,
+		"pilgrim_of_the_ages": 2,
+		"serra_angel": 2,
 		"howling_golem": 1,
+		"ancestral_blade": 2,
+		"path_to_exile": 1,
+		"strength_of_arms": 1,
+		"swords_to_plowshares": 1,
+		"valorous_stance": 2,
+		"vow_of_duty": 1,
+		"argentum_armor": 1,
+		"colossus_hammer": 1,
+		"greatsword": 1,
+		"moonsilver_spear": 1,
+		"ring_of_thune": 1,
+		"sword_of_vengeance": 1,
+		"trusty_machete": 2,
 		"plains": 26
 	}
 }

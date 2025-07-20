@@ -1,0 +1,8 @@
+{
+	"name": "Forbidding Spirit",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Spirit", "Cleric"]
+	}
+}

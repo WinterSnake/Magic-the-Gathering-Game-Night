@@ -1,0 +1,8 @@
+{
+	"name": "Strength of Arms",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

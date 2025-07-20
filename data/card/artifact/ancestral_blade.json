@@ -1,0 +1,8 @@
+{
+	"name": "Ancestral Blade",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

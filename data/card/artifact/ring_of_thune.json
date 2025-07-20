@@ -1,0 +1,8 @@
+{
+	"name": "Ring of Thune",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

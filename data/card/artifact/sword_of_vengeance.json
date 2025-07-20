@@ -1,0 +1,8 @@
+{
+	"name": "Sword of Vengeance",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

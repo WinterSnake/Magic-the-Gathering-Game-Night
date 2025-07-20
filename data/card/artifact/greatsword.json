@@ -1,0 +1,8 @@
+{
+	"name": "Greatsword",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

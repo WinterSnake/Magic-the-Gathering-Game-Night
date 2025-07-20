@@ -1,0 +1,8 @@
+{
+	"name": "Danitha Capashen, Paragon",
+	"type": {
+		"super": "Legendary",
+		"base": ["Creature"],
+		"sub": ["Human", "Knight"]
+	}
+}

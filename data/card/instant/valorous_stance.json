@@ -1,0 +1,8 @@
+{
+	"name": "Valorous Stance",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

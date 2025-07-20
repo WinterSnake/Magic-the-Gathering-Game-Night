@@ -1,0 +1,8 @@
+{
+	"name": "Captain of the Watch",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Soldier"]
+	}
+}

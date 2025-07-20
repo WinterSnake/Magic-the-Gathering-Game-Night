@@ -1,0 +1,8 @@
+{
+	"name": "Kor Outfitter",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Kor", "Soldier"]
+	}
+}

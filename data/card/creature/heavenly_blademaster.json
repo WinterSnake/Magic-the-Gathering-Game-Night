@@ -1,0 +1,8 @@
+{
+	"name": "Heavenly Blademaster",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Angel"]
+	}
+}

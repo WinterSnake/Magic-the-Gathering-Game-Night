@@ -1,0 +1,8 @@
+{
+	"name": "Banisher Priest",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Cleric"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Trusty Machete",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

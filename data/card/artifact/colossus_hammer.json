@@ -1,0 +1,8 @@
+{
+	"name": "Colossus Hammer",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

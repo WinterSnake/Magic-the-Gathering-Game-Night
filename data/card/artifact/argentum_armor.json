@@ -1,0 +1,8 @@
+{
+	"name": "Argentum Armor",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}

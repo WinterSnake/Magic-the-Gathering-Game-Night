@@ -1,0 +1,8 @@
+{
+	"name": "Kitesail Apprentice",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Kor", "Soldier"]
+	}
+}

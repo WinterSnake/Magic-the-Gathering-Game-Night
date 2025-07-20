@@ -1,0 +1,8 @@
+{
+	"name": "Pilgrim of the Ages",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Spirit"]
+	}
+}

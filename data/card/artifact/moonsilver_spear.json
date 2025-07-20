@@ -1,0 +1,8 @@
+{
+	"name": "Moonsilver Spear",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": ["Equipment"]
+	}
+}
