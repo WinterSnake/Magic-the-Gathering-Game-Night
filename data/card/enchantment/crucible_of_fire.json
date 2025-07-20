@@ -1,0 +1,8 @@
+{
+	"name": "Crucible of Fire",
+	"type": {
+		"super": null,
+		"base": ["Enchantment"],
+		"sub": []
+	}
+}

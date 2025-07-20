@@ -1,0 +1,8 @@
+{
+	"name": "Flametongue Kavu",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Kavu"]
+	}
+}

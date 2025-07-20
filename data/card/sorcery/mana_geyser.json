@@ -1,0 +1,8 @@
+{
+	"name": "Mana Geyser",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

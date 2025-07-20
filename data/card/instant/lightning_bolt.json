@@ -1,0 +1,8 @@
+{
+	"name": "Lightning Bolt",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

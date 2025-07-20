@@ -1,0 +1,8 @@
+{
+	"name": "Dragon Tempest",
+	"type": {
+		"super": null,
+		"base": ["Enchantment"],
+		"sub": []
+	}
+}

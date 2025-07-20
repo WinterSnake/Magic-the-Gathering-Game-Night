@@ -1,0 +1,8 @@
+{
+	"name": "Kargan Dragonrider",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Warrior"]
+	}
+}

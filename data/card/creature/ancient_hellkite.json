@@ -1,0 +1,8 @@
+{
+	"name": "Ancient Hellkite",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Dragon"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Knollspine Dragon",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Dragon"]
+	}
+}

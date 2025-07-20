@@ -1,0 +1,8 @@
+{
+	"name": "Blaze",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Drakuseth, Maw of Flames",
+	"type": {
+		"super": "Legendary",
+		"base": ["Creature"],
+		"sub": ["Dragon"]
+	}
+}

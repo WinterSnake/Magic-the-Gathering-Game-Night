@@ -1,0 +1,8 @@
+{
+	"name": "Furnace Whelp",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Dragon"]
+	}
+}

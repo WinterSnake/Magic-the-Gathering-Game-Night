@@ -1,0 +1,8 @@
+{
+	"name": "Dragonspeaker Shaman",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Barbarian", "Shaman"]
+	}
+}

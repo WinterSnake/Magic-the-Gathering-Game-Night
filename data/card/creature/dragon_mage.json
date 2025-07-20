@@ -1,0 +1,8 @@
+{
+	"name": "Dragon Mage",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Dragon", "Wizard"]
+	}
+}

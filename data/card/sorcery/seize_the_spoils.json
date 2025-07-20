@@ -1,0 +1,8 @@
+{
+	"name": "Seize the Spoils",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

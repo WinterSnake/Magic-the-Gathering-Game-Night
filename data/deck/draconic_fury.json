@@ -1,7 +1,30 @@
 {
 	"name": "Draconic Fury",
 	"cards": {
+		"nogi_draco_zealot": 1,
+		"ancient_hellkite": 1,
+		"dragon_egg": 1,
+		"dragon_hatchling": 2,
+		"dragon_mage": 1,
+		"dragonspeaker_shaman": 3,
+		"drakuseth_maw_of_flames": 1,
+		"flameblast_dragon": 1,
+		"flametongue_kavu": 1,
+		"furnace_whelp": 2,
+		"goblin_motivator": 1,
+		"kargan_dragonrider": 3,
+		"knollspine_dragon": 1,
+		"rapacious_dragon": 2,
+		"shivan_dragon": 1,
 		"howling_golem": 1,
+		"abrade": 2,
+		"blaze": 2,
+		"crucible_of_fire": 1,
+		"dragon_tempest": 1,
+		"lightning_bolt": 2,
+		"mana_geyser": 1,
+		"seize_the_spoils": 2,
+		"vow_of_lightning": 1,
 		"mountain": 25
 	}
 }

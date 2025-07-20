@@ -1,0 +1,8 @@
+{
+	"name": "Dragon Hatchling",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Dragon"]
+	}
+}

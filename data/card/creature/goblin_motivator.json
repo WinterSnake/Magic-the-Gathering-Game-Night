@@ -1,0 +1,8 @@
+{
+	"name": "Goblin Motivator",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Goblin", "Warrior"]
+	}
+}

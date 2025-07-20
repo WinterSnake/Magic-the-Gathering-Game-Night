@@ -1,0 +1,8 @@
+{
+	"name": "Abrade",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}
