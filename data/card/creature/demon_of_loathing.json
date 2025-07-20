@@ -1,0 +1,8 @@
+{
+	"name": "Demon of Loathing",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Demon"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Reassembling Skeleton",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Skeleton", "Warrior"]
+	}
+}

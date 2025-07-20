@@ -1,0 +1,8 @@
+{
+	"name": "Lord of the Accursed",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Zombie"]
+	}
+}

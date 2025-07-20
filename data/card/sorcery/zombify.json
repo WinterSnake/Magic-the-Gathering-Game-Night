@@ -1,0 +1,8 @@
+{
+	"name": "Zombify",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

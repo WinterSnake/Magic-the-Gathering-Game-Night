@@ -1,0 +1,8 @@
+{
+	"name": "Gravewaker",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Bird", "Spirit"]
+	}
+}

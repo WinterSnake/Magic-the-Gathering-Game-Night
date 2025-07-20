@@ -1,0 +1,8 @@
+{
+	"name": "Supernatural Stamina",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

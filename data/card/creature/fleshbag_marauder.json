@@ -1,0 +1,8 @@
+{
+	"name": "Fleshbag Marauder",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Zombie", "Warrior"]
+	}
+}

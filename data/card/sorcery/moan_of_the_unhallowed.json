@@ -1,0 +1,8 @@
+{
+	"name": "Moan of the Unhallowed",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

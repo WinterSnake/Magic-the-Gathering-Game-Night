@@ -1,0 +1,8 @@
+{
+	"name": "Demonic Embrace",
+	"type": {
+		"super": null,
+		"base": ["Enchantment"],
+		"sub": ["Aura"]
+	}
+}

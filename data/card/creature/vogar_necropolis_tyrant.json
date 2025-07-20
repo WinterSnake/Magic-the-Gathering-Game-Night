@@ -1,0 +1,8 @@
+{
+	"name": "Vogar, Necropolis Tyrant",
+	"type": {
+		"super": "Legendary",
+		"base": ["Creature"],
+		"sub": ["Zombie", "Giant"]
+	}
+}

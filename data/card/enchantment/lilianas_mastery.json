@@ -1,0 +1,8 @@
+{
+	"name": "Liliana's Mastery",
+	"type": {
+		"super": null,
+		"base": ["Enchantment"],
+		"sub": []
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Doomed Dissenter",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human"]
+	}
+}

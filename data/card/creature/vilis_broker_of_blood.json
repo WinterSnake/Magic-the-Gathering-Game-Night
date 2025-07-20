@@ -1,0 +1,8 @@
+{
+	"name": "Vilis, Broker of Blood",
+	"type": {
+		"super": "Legendary",
+		"base": ["Creature"],
+		"sub": ["Demon"]
+	}
+}

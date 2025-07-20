@@ -1,0 +1,8 @@
+{
+	"name": "Vow of Torment",
+	"type": {
+		"super": null,
+		"base": ["Enchantment"],
+		"sub": ["Aura"]
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Ravenous Chupacabra",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Beast", "Horror"]
+	}
+}

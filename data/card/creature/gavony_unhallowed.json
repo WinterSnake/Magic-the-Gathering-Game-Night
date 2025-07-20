@@ -1,0 +1,8 @@
+{
+	"name": "Gavony Unhallowed",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Zombie"]
+	}
+}

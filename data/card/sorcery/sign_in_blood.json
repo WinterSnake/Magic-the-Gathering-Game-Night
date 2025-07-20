@@ -1,0 +1,8 @@
+{
+	"name": "Sign in Blood",
+	"type": {
+		"super": null,
+		"base": ["Sorcery"],
+		"sub": []
+	}
+}

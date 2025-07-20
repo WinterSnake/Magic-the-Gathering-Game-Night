@@ -1,0 +1,8 @@
+{
+	"name": "Doom Blade",
+	"type": {
+		"super": null,
+		"base": ["Instant"],
+		"sub": []
+	}
+}

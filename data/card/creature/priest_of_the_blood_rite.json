@@ -1,0 +1,8 @@
+{
+	"name": "Priest of the Blood Rite",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Cleric"]
+	}
+}

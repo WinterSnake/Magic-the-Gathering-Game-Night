@@ -1,0 +1,8 @@
+{
+	"name": "Bushmeat Poacher",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Human", "Soldier"]
+	}
+}

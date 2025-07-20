@@ -1,0 +1,8 @@
+{
+	"name": "Bloodsoaked Altar",
+	"type": {
+		"super": null,
+		"base": ["Artifact"],
+		"sub": []
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"name": "Gifted Aetherborn",
+	"type": {
+		"super": null,
+		"base": ["Creature"],
+		"sub": ["Aetherborn", "Vampire"]
+	}
+}
