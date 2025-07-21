@@ -1,31 +1,17 @@
-// Constants
-export enum CardType {
-	Artifact    = 1 << 0,
-	Creature    = 1 << 1,
-	Enchantment = 1 << 2,
-	Instant     = 1 << 3,
-	Land        = 1 << 4,
-	Sorcery     = 1 << 5,
-}
-
-export enum SuperType {
-	Basic,
-	Legendary,
-}
+// Imports
+import { BaseType, SuperType } from './types.js';
 
 // Classes
 export class Card {
-	// Constructor
-	constructor(name: string, type: CardType, subtypes: string[], supertype: SuperType | null = null) {
+	constructor(name: string, superType: SuperType, baseType: BaseType, subTypes: string[]) {
 		this.name = name;
-		this.type = type;
-		this.supertype = supertype;
-		this.subtypes = subtypes;
+		this.superType = superType;
+		this.baseType = baseType;
+		this.subTypes = subTypes;
 	}
-	// Instance Methods
-	// Properties
-	name: string;
-	supertype: SuperType | null;
-	type: CardType;
-	subtypes: string[];
+	/* Properties */
+	readonly name: string;
+	readonly superType: SuperType;
+	readonly baseType: BaseType;
+	readonly subTypes: string[];
 }
