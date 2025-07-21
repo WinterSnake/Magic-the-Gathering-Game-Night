@@ -1,6 +1,6 @@
 // Imports
-import { Card, CardType, SuperType } from './card/card.js';
-import { ManaColor } from './card/mana.js';
+import { Card, CardType, SuperType } from './card.js';
+import { ManaColor } from './mana.js';
 
 // Constants
 const CARD_TABLE: { [key: string]: Card} = { };
