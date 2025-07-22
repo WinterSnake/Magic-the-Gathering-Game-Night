@@ -1,20 +1,16 @@
 // Imports
-import { Card } from './card/card.js';
-import { Zone } from './zone.js';
+import { Card } from './card/index.js';
+import { Zone } from './deck/index.js';
 
 // Classes
 export class PlayerBase {
 	/* Constructor */
 	constructor(deck: Card[]) {
+		this.hand = [];
 		this.library = new Zone(deck);
-		this.graveyard = new Zone([]);
-		this.exile = new Zone([]);
 	}
 	/* Properties */
-	hand: Card[];
+	private hand: Card[];
 	private library: Zone;
-	private graveyard: Zone;
-	private exile: Zone;
-	public get health() { return this._health; }
-	private _health: number = 20;
+	health: number = 20;
 }

@@ -1,5 +1,5 @@
 // Imports
-import { Card } from './card/card.js';
+import { Card } from '../card/card.js';
 
 // Classes
 export class Zone {
@@ -8,7 +8,7 @@ export class Zone {
 		this.cards = cards;
 	}
 	/* Instance Methods */
-	public shuffle() {
+	public shuffle(): void {
 		for (let i = this.cards.length - 1; i > 0; --i) {
 			const j = Math.floor(Math.random() * (i + 1));
 			[this.cards[i], this.cards[j]] = [this.cards[j], this.cards[i]];
