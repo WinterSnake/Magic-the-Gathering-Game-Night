@@ -10,7 +10,10 @@ export class PlayerBase {
 		this.library = new Zone(deck);
 	}
 	/* Properties */
-	private hand: Card[];
-	private library: Zone;
+	public get isAlive(): boolean {
+		return this.health > 0;
+	}
+	hand: Card[];
+	library: Zone;
 	health: number = 20;
 }
