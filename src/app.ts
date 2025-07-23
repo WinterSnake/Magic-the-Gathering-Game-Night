@@ -1,27 +1,20 @@
 // Imports
 import { loadDeck } from './engine/deck/index.js';
+import { GameSystem } from './engine/game.js';
 import { BaseType } from './engine/card/index.js';
-import { PlayerBase } from './engine/index.js';
 import { PhaseStep, phaseStateTable } from './engine/phase.js';
+import { AIPlayer } from './players/index.js';
 
 // Body
-const [d0, d1] = await Promise.all([
+const players = await Promise.all([
+	loadDeck("boundless_elves"),
 	loadDeck("dark_sacrifice"),
-	loadDeck("draconic_fury")
-]);
-const players = [new PlayerBase(d0), new PlayerBase(d1)];
-console.log(players);
-let currentPlayer = 0;
-/// [GAME]
-// Init
-let phase = PhaseStep.Untap;
-players.forEach(player => {
-	player.library.shuffle();
-	player.hand = player.library.draw(7);
+	loadDeck("draconic_fury"),
+	loadDeck("glorious_combat"),
+	loadDeck("political_trickery"),
+]).then(decks => {
+	return decks.map((deck) => new AIPlayer(deck));
 });
-let activePlayer = players[currentPlayer];
-phase = PhaseStep.PreMain;
-console.log(activePlayer.hand);
-const landCards = activePlayer.getHandIndices(card => (card.baseType & BaseType.Land) === BaseType.Land);
-console.log(landCards);
-console.log(activePlayer.hand);
+const game = new GameSystem(...players);
+game.init();
+console.log(game);
