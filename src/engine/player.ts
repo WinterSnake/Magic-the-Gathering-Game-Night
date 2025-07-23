@@ -9,6 +9,15 @@ export class PlayerBase {
 		this.hand = [];
 		this.library = new Zone(deck);
 	}
+	/* Instance Methods */
+	public getHandIndices(criteria: (card: Card) => boolean): number[] {
+		return this.hand.map((card, index) => {
+			if (criteria(card)) {
+				return index;
+			}
+			return undefined;
+		}).filter(index => index !== undefined);
+	}
 	/* Properties */
 	public get isAlive(): boolean {
 		return this.health > 0;
