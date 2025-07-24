@@ -2,24 +2,26 @@
 export enum PhaseStep {
 	// Beginning
 	Untap, Upkeep, Draw,
-	// Pre/Post-Combat Main
-	PreMain, PostMain,
+	// Main[Pre]
+	PreMain,
 	// Combat
-	CombatStart, DeclareAttackers, DeclareBlockers, Damage, CombatEnd,
+	CombatStart, Attackers, Blockers, Damage, CombatEnd,
+	// Main[Post]
+ 	PostMain,
 	// Ending
-	End, Cleanup
+	End, Cleanup,
 }
 export const phaseStateTable: PhaseStep[] = [
-	PhaseStep.Upkeep,            // ( 0)phaseStateTable[PhaseStep.Untap]
-	PhaseStep.Draw,              // ( 1)phaseStateTable[PhaseStep.Upkeep]
-	PhaseStep.PreMain,           // ( 2)phaseStateTable[PhaseStep.Draw]
-	PhaseStep.CombatStart,       // ( 3)phaseStateTable[PhaseStep.PreMain]
-	PhaseStep.End,               // ( 4)phaseStateTable[PhaseStep.PostMain]
-	PhaseStep.DeclareAttackers,  // ( 5)phaseStateTable[PhaseStep.CombatStart]
-	PhaseStep.DeclareBlockers,   // ( 6)phaseStateTable[PhaseStep.DeclareAttackers]
-	PhaseStep.Damage,            // ( 7)phaseStateTable[PhaseStep.DeclareBlockers]
-	PhaseStep.CombatEnd,         // ( 8)phaseStateTable[PhaseStep.Damage]
-	PhaseStep.PostMain,          // ( 9)phaseStateTable[PhaseStep.CombatEnd]
-	PhaseStep.Cleanup,           // (10)phaseStateTable[PhaseStep.End]
-	PhaseStep.Untap,             // (11)phaseStateTable[PhaseStep.Cleanup]
+	PhaseStep.Upkeep,       // state[Untap]       -> Upkeep
+	PhaseStep.Draw,         // state[Upkeep]      -> Draw
+	PhaseStep.PreMain,      // state[Draw]        -> PreMain
+	PhaseStep.CombatStart,  // state[PreMain]     -> CombatStart
+	PhaseStep.Attackers,    // state[CombatStart] -> Attackers
+	PhaseStep.Blockers,     // state[Attackers]   -> Blockers
+	PhaseStep.Damage,       // state[Blockers]    -> Damage
+	PhaseStep.CombatEnd,    // state[Damage]      -> CombatEnd
+	PhaseStep.PostMain,     // state[CombatEnd]   -> PostMain
+	PhaseStep.End,          // state[PostMain]    -> End
+	PhaseStep.Cleanup,      // state[End]         -> Cleanup
+	PhaseStep.Untap,        // state[Cleanup]     -> Untap
 ] as const;
