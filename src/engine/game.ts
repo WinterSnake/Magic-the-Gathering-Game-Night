@@ -19,10 +19,15 @@ export class GameSystem {
 		this.players.forEach(player => {
 			player.library.shuffle();
 			player.hand = player.library.cards.splice(0, 7);
+			console.log(player.hand);
 		});
+	}
+	public step(): void {
+		this.turnPhase = phaseStateTable[this.turnPhase];
 	}
 	/* Properties */
 	players: PlayerBase[];
 	playerIndex: number = 0;
 	turnCounter: number = 0;
+	turnPhase: PhaseStep = PhaseStep.Untap;
 }
