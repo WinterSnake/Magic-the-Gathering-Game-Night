@@ -8,14 +8,6 @@ export class Zone {
 		this.cards = cards;
 	}
 	/* Instance Methods */
-	public draw(count: number = 1): Card[] {
-		const cards: Card[] = [];
-		for (let i = 0; i < count; ++i) {
-			const card = this.cards.pop();
-			cards.push(card);
-		}
-		return cards;
-	}
 	public shuffle(): void {
 		for (let i = this.cards.length - 1; i > 0; --i) {
 			const j = Math.floor(Math.random() * (i + 1));
@@ -23,5 +15,5 @@ export class Zone {
 		}
 	}
 	/* Properties */
-	private cards: Card[];
+	cards: Card[];
 }

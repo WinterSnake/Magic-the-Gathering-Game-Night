@@ -1,8 +1,6 @@
 // Imports
 import { Card } from './card/index.js';
-import { Field } from './field.js';
 import { Zone } from './deck/index.js';
-import { GameSystem } from './game.js';
 
 // Constants
 const HAND_SIZE: number = 7;
@@ -13,20 +11,13 @@ export abstract class PlayerBase {
 	constructor(deck: Card[]) {
 		this.hand = [];
 		this.library = new Zone(deck);
-		this.field = new Field();
-	}
-	/* Instance Methods */
-	public onGameInit(system: GameSystem): void {
-		this.library.shuffle();
-		this.hand = this.library.draw(HAND_SIZE);
+		this.graveyard = new Zone([]);
+		this.exile = new Zone([]);
 	}
 	/* Properties */
-	public get isAlive(): boolean {
-		return this.health > 0;
-	}
 	hand: Card[];
-	private library: Zone;
-	private field: Field;
-	private health: number = 20;
-	protected isReady: boolean = false;
+	library: Zone;
+	graveyard: Zone;
+	exile: Zone;
+	health: number = 20;
 }
