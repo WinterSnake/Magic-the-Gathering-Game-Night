@@ -26,8 +26,14 @@ export class GameSystem {
 		this.turnPhase = phaseStateTable[this.turnPhase];
 	}
 	/* Properties */
-	players: PlayerBase[];
-	playerIndex: number = 0;
-	turnCounter: number = 0;
+	public get currentPlayer(): PlayerBase {
+		return this.players[this.playerIndex];
+	}
+	public get playerCount(): number {
+		return this.players.length;
+	}
+	private players: PlayerBase[];
+	private playerIndex: number = 0;
+	private turnCounter: number = 0;
 	turnPhase: PhaseStep = PhaseStep.Untap;
 }
